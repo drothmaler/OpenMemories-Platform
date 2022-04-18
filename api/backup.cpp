@@ -233,6 +233,8 @@ COMPOUND_SINGLETON(bkprop_rec_limit,
 
 BASE_SINGLETON(bkprop_rec_limit_4k, 0x003c04b6, 2)
 
+BASE_SINGLETON(bkprop_hdmi_osd, 0x01070a47, 1)
+
 BASE_SINGLETON(bkprop_pal_ntsc_selector, 0x01070148, 1)
 
 COMPOUND_SINGLETON(bkprop_language,

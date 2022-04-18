@@ -279,6 +279,13 @@ SINGLETON(tweak_rec_limit_4k, ConstantBackupTweak,
 
 SINGLETON(tweak_language, LanguageBackupTweak, bkprop_language())
 
+SINGLETON(tweak_hdmi_osd, ConstantBackupTweak,
+    bkprop_hdmi_osd(),
+    true,
+    vector<char>(1, 0),
+    vector<char>(1, 1)
+)
+
 SINGLETON(tweak_pal_ntsc_selector, ConstantBackupTweak,
     bkprop_pal_ntsc_selector(),
     true,
@@ -340,6 +347,7 @@ UNDEFINED_SINGLETON(tweak_protection_advanced)
 UNDEFINED_SINGLETON(tweak_rec_limit)
 UNDEFINED_SINGLETON(tweak_rec_limit_4k)
 UNDEFINED_SINGLETON(tweak_language)
+UNDEFINED_SINGLETON(tweak_hdmi_osd)
 UNDEFINED_SINGLETON(tweak_pal_ntsc_selector)
 UNDEFINED_SINGLETON(tweak_usb_app_installer)
 UNDEFINED_SINGLETON(tweak_protection)

@@ -57,6 +57,7 @@ BackupProperty &bkprop_model_name();
 BackupProperty &bkprop_serial_number();
 BackupProperty &bkprop_rec_limit();
 BackupProperty &bkprop_rec_limit_4k();
+BackupProperty &bkprop_hdmi_osd();
 BackupProperty &bkprop_pal_ntsc_selector();
 BackupProperty &bkprop_language();
 BackupProperty &bkprop_usb_app_installer();
